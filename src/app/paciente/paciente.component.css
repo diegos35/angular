@@ -1,0 +1,13 @@
+main{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+mat-card{
+margin: auto;
+width: 40%;
+display: block;
+margin-top: 3rem;
+}

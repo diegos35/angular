@@ -1,0 +1,31 @@
+.navegacion{
+width: 1000px;
+margin: 30px auto;
+background: #fff;
+}
+
+a{
+    color: #fff
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    color: black;
+
+}
+main{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+mat-card{
+margin: auto;
+width: 40%;
+display: block;
+margin-top: 3rem;
+}
+
