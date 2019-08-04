@@ -32,35 +32,36 @@
            <div >
              <div class="form-group">
                <mat-form-field >
-                   <input [(ngModel)]="pacientes.nombre"  matInput class="form-control"   id="nombre"   placeholder="Nombre"  >
+                   <input [(ngModel)]="pa.nombre"  matInput class="form-control"   id="nombre"   placeholder="Nombre"  >
                 </mat-form-field> 
                </div>
                <div>
                 <mat-form-field >
-                   <input [(ngModel)]="pacientes.apellido"  matInput class="form-control" id="apellido" placeholder="Apellido">
+                   <input [(ngModel)]="pa.apellido"  matInput class="form-control" id="apellido" placeholder="Apellido">
                 </mat-form-field> 
                 </div>
                 <div>
                 <mat-form-field >
-                   <input [(ngModel)]="pacientes.direccion"  matInput class="form-control" id="direccion" placeholder="Direccion">
+                   <input [(ngModel)]="pa.direccion"  matInput class="form-control" id="direccion" placeholder="Direccion">
                  </mat-form-field> 
                </div>
                   <div>
                    <mat-form-field >
-                       <input [(ngModel)]="pacientes.telefono"  matInput id="telefono" placeholder="Telefono">
+                       <input [(ngModel)]="pa.telefono"  matInput id="telefono" placeholder="Telefono">
                    
                 </mat-form-field> 
              </div>
              <div>
                   <mat-form-field >
-                      <input matInput [(ngModel)]="pacientes.fecha_nacimiento"   class="form-control" id="fecha_nacimiento" placeholder="Fecha de nacimiento">
+                      <input matInput [(ngModel)]="pa.fecha_nacimiento"   class="form-control" id="fecha_nacimiento" placeholder="Fecha de nacimiento">
                   
                </mat-form-field> 
               </div>
                <div>
-                    <button  (click)="guardar()" mat-raised-button color="primary">Guardar</button>
+                    <button  (click)="guardar()" mat-raised-button color="primary" >Guardar</button>
                          <button  mat-raised-button color="warn" routerLink="/pacientes"> Cancelar</button>
                        </div>
+                       <p>{{editar}}</p>
            </div>
          </mat-card>
          </main>
